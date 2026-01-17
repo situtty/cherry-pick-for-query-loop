@@ -62,6 +62,11 @@ Sticky post settings are ignored when posts are selected. Posts are displayed in
 1. Post picker panel in block settings
 2. Search and select posts from dropdown
 
+== Source Code ==
+
+Source code and build tools are available at:
+https://github.com/situtty/post-picker-for-query-loop
+
 == Changelog ==
 
 = 1.0.0 =
