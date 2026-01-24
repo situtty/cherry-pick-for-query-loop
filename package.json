@@ -1,5 +1,5 @@
 {
-	"name": "post-picker-for-query-loop",
+	"name": "cherry-pick-for-query-loop",
 	"version": "1.0.0",
 	"description": "Add post picking feature to Query Loop block.",
 	"author": "Tatsuya Saito",
@@ -13,7 +13,7 @@
 		"lint:js": "wp-scripts lint-js",
 		"packages-update": "wp-scripts packages-update",
 		"plugin-zip": "wp-scripts plugin-zip",
-		"makepot": "wp i18n make-pot . languages/post-picker-for-query-loop.pot --domain=post-picker-for-query-loop"
+		"makepot": "wp i18n make-pot . languages/cherry-pick-for-query-loop.pot --domain=cherry-pick-for-query-loop"
 	},
 	"devDependencies": {
 		"@types/wordpress__block-editor": "^15.0.0",
@@ -31,7 +31,7 @@
 	"files": [
 		"build",
 		"languages",
-		"post-picker-for-query-loop.php",
+		"cherry-pick-for-query-loop.php",
 		"readme.txt"
 	]
 }

@@ -1,6 +1,6 @@
-=== Post Picker for Query Loop ===
+=== Cherry Pick for Query Loop ===
 Contributors: saito3110
-Tags: query loop, post picker, block editor, gutenberg, posts
+Tags: query loop, cherry pick, block editor, gutenberg, posts
 Requires at least: 6.4
 Tested up to: 6.9
 Stable tag: 1.0.0
@@ -12,7 +12,7 @@ Pick specific posts for Query Loop block and display them in your preferred orde
 
 == Description ==
 
-Post Picker for Query Loop extends the core Query Loop block with a post picking feature. Select specific posts and display them in any order you choose.
+Cherry Pick for Query Loop extends the core Query Loop block with a post picking feature. Select specific posts and display them in any order you choose.
 
 = Features =
 
@@ -35,7 +35,7 @@ Note: When posts are selected, sorting and sticky post settings are ignored.
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/post-picker-for-query-loop` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/cherry-pick-for-query-loop` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Edit any page or post, add a Query Loop block, and find the "Pick Posts" panel in the block settings.
 
@@ -65,7 +65,7 @@ Sticky post settings are ignored when posts are selected. Posts are displayed in
 == Source Code ==
 
 Source code and build tools are available at:
-https://github.com/situtty/post-picker-for-query-loop
+https://github.com/situtty/cherry-pick-for-query-loop
 
 == Changelog ==
 

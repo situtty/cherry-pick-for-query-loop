@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Post Picker for Query Loop
- * Plugin URI:        https://wordpress.org/plugins/post-picker-for-query-loop/
+ * Plugin Name:       Cherry Pick for Query Loop
+ * Plugin URI:        https://wordpress.org/plugins/cherry-pick-for-query-loop/
  * Description:       Add post picking feature to Query Loop block.
  * Version:           1.0.0
  * Requires at least: 6.4
@@ -10,13 +10,13 @@
  * Author URI:        https://profiles.wordpress.org/saito3110/
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       post-picker-for-query-loop
+ * Text Domain:       cherry-pick-for-query-loop
  * Domain Path:       /languages
  *
- * @package post-picker-for-query-loop
+ * @package cherry-pick-for-query-loop
  */
 
-namespace PostPickerForQueryLoop;
+namespace CherryPickForQueryLoop;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -31,7 +31,7 @@ const VERSION = '1.0.0';
 /**
  * Plugin text domain.
  */
-const TEXT_DOMAIN = 'post-picker-for-query-loop';
+const TEXT_DOMAIN = 'cherry-pick-for-query-loop';
 
 /**
  * Enqueue block editor assets.
@@ -48,7 +48,7 @@ function enqueue_editor_assets(): void {
 	$asset = include $asset_file;
 
 	wp_enqueue_script(
-		'post-picker-for-query-loop',
+		'cherry-pick-for-query-loop',
 		plugins_url( 'build/index.js', __FILE__ ),
 		$asset['dependencies'],
 		$asset['version'],
@@ -56,14 +56,14 @@ function enqueue_editor_assets(): void {
 	);
 
 	wp_enqueue_style(
-		'post-picker-for-query-loop',
+		'cherry-pick-for-query-loop',
 		plugins_url( 'build/index.css', __FILE__ ),
 		array(),
 		$asset['version']
 	);
 
 	wp_set_script_translations(
-		'post-picker-for-query-loop',
+		'cherry-pick-for-query-loop',
 		TEXT_DOMAIN,
 		__DIR__ . '/languages'
 	);

@@ -36,7 +36,7 @@ import "./editor.scss";
  * Constants
  */
 const POSTS_PER_PAGE = 100;
-const TEXT_DOMAIN = "post-picker-for-query-loop";
+const TEXT_DOMAIN = "cherry-pick-for-query-loop";
 
 /**
  * Types
@@ -352,7 +352,7 @@ const withPostPicker = createHigherOrderComponent(
  */
 addFilter(
   "editor.BlockEdit",
-  "post-picker-for-query-loop/post-picker",
+  "cherry-pick-for-query-loop/post-picker",
   withPostPicker,
   999
 );
